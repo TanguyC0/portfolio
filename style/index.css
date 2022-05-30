@@ -1,0 +1,76 @@
+body
+{
+    background-color: #f0f0f0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+section
+{
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+
+    color: #f0f0f0;
+    /* text-shadow: #fff 0 0 30px; */
+}
+
+#gauche
+{
+    display: flex;
+    min-width: 40vw;
+    max-width: 40vw;
+    background: rgb(38, 200, 239) url("../img/fond.jpg") no-repeat fixed;
+}
+
+#droite
+{
+    display: flex;
+    flex-direction: column;
+    min-width: 60vw;
+    max-width: 60vw;
+    background-color: #0f8cac;
+}
+
+h1
+{
+    display: flex;
+    font-size: 5em;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: #fff 0 0 30px;
+}
+
+p
+{
+    display: flex;
+    font-size: 1.2em;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+a
+{
+    text-decoration: underline;
+    color: #f0f0f0;
+    font-size: 1.7em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+a:hover
+{
+    color: #FF5733;
+}
