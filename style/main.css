@@ -1,0 +1,144 @@
+body
+{
+    background-color: #0f8cac;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0a334f;
+    height: 10vh;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+li>a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+li>a:hover
+{
+    color: #FF5733;
+}
+
+ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+
+li
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    font-size: 1.5em;
+    font-weight: bold;
+    /* text-shadow: #fff 0 0 30px; */
+}
+
+section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article>a
+{
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article
+{
+    display: flex;
+    background-color: #3c8dc4; /*3edbfe*/
+    min-width: 23vw;
+    max-width: 23vw;
+    min-height: 25vh;
+    margin: 1% 0.5% 1%;
+    border: #fff solid 1px ;
+    border-radius: 10px;
+    box-shadow: #000000 10px 10px 15px -2px;
+} 
+
+article:hover
+{
+    border: #FF5733 solid 1px;
+    box-shadow: #000000 10px 10px 15px 2px;
+}
+
+h1
+{
+    display: flex;
+    font-size: 2em;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-shadow: #fff 0 0 30px; */
+}
+
+a>p
+{
+    display: flex;
+    font-size: 1.2em;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: justify;
+    width: 95%;
+}
+
+img
+{
+    display: flex;
+    width: 95%;
+    margin:auto;
+    border: #000000 solid 1px;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0a334f;
+    height: 10vh;
+    width: 100%;
+}
+
+footer>p
+{
+    display: flex;
+    color: #fff;
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
