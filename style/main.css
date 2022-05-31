@@ -75,7 +75,7 @@ article
 {
     display: flex;
     background-color: #3c8dc4; /*3edbfe*/
-    min-width: 23vw;
+    min-width: 300px;
     max-width: 23vw;
     min-height: 25vh;
     margin: 1% 0.5% 1%;
