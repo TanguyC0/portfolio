@@ -1,0 +1,57 @@
+section.duo
+{
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+
+    color: #f0f0f0;
+    /* text-shadow: #fff 0 0 30px; */
+}
+
+#gauche
+{
+    display: flex;
+    flex-direction: column;
+    min-width: 30vw;
+    max-width: 30vw;
+    background-color: #3c8dc4;
+}
+
+#droite
+{
+    display: flex;
+    flex-direction: column;
+    min-width: 70vw;
+    max-width: 70vw;
+    background-color: #0f8cac;
+}
+
+h1.duo
+{
+    display: flex;
+    font-size: 5em;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: #fff 0 0 30px;
+}
+
+p.duo
+{
+    display: flex;
+    font-size: 1.2em;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+img.duo
+{
+    display: flex;
+    width: 95%;
+    margin:auto;
+    border: #000000 solid 1px;
+}
