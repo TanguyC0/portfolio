@@ -1,6 +1,10 @@
 # 0.1.1 (2022-05-31)
 
 
+### Bug
+
+* taille de la fenêtre agrandie sur la page `projet`.
+
 ### Bug Fixes
 
 * Correction du visuel de la page `liste des projets` : grossisement de la bordure des articles et ajout d'une ombre en dessous du menu.
@@ -11,6 +15,7 @@
 * rearangement des fichier et passage en mvc.
 * implémentation de php.
 * implémentation des lien du menu et des projets. (pour le moment, seul le lien `projets` du menu est implémenté correctement)
+* implémentation de la page `projet` (html, css, php).
 
 # 0.1 (2022-05-30)
 
