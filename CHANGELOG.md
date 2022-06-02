@@ -1,3 +1,15 @@
+# 0.1.2 (2022-06-02)
+
+
+### Bug Fixes
+
+* taille de la fenêtre agrandie sur la page `projet`.
+* correction des utilisation des lien reliant chaque page (mvc)
+
+### Features
+
+* page `projet` terminé et fonctionnelle.
+
 # 0.1.1 (2022-05-31)
 
 

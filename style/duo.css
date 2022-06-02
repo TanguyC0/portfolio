@@ -11,10 +11,12 @@ section.duo
 #gauche
 {
     display: flex;
-    /*flex-direction: column;*/
+    flex-direction: column;
     min-width: 40%;
     max-width: 40%;
     background-color: #3c8dc4;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 #droite
@@ -24,34 +26,39 @@ section.duo
     min-width: 60%;
     max-width: 60%;
     background-color: #0f8cac;
+    padding-top: 3%;
+    padding-bottom: 2%;
 }
 
 h1.duo
 {
     display: flex;
-    font-size: 5em;
-    margin-top: 15%;
-    margin-left: auto;
-    margin-right: auto;
-    text-shadow: #fff 0 0 30px;
+    font-size: 2.5em;
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: -0.5%;
+    margin-bottom: -1%;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 p.duo
 {
     display: flex;
     font-size: 1.2em;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     margin-left: auto;
     margin-right: auto;
     padding-left: 5%;
     padding-right: 5%;
-    text-align: center;
+    text-align: justify;
 }
 
 img.duo
 {
     display: flex;
     width: 95%;
-    margin:auto;
+    margin: 2% auto 2%;
     border: #000000 solid 1px;
 }
