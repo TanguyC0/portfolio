@@ -1,3 +1,10 @@
+# 0.2 (2022-06-05)
+
+
+### Patch
+
+* organisation des fichiers dans les dossiers -> (finalisation de la mise en place propre du format mvc)
+
 # 0.1.2 (2022-06-02)
 
 
