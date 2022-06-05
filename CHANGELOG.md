@@ -5,6 +5,17 @@
 
 * organisation des fichiers dans les dossiers -> (finalisation de la mise en place propre du format mvc)
 
+### Feature
+
+* ajout d'un lien vers une page `accueil`
+* ajout de l'utilisation de base de données (V 1.0 de la BDD)
+* mise en place de l'utilisation de la base de données pour la page `liste des projet`
+* ajout de la possibiliter d'accédé au page `accueil`, `cv` et `contact` (non faite)
+
+### Fix
+
+* la page `index` devient la page `garde`
+
 # 0.1.2 (2022-06-02)
 
 

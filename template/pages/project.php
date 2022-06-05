@@ -1,4 +1,4 @@
-<?php $title = "liste des projets"; ?>
+<?php $title = "projet : xxx"; ?>
 
 <?php ob_start(); ?>
 <section class="duo">

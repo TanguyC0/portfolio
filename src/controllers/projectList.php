@@ -4,8 +4,7 @@
 
     function projectList()
     {
-        $data = generate();
-        // $data = getProjects();
+        $data = getListProjects();
 
-        require("template/projectList.php");
+        require("template/pages/projectList.php");
     }

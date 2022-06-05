@@ -2,6 +2,8 @@
 
 ## table des matiéres
 
+## remerciements
+
 ## liste des pages
 
 1. index : page de garde du site

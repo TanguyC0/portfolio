@@ -9,8 +9,8 @@
         <article class="Quarter">
             <a href="./index.php?link=project" class="Quarter">
                 <h1 class="Quarter"> <?= $project["title"]; ?></h1>
-                <img src="img/fond.jpg" alt="" class="Quarter">
-                <p class="Quarter"> <?= $project["description"]; ?> </p>
+                <img src="img/<?= $project["picture"]; ?>" alt="" class="Quarter">
+                <p class="Quarter"> <?= $project["abstract"]; ?> </p>
             </a>
         </article>
     <?php

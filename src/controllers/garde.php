@@ -4,5 +4,5 @@
 
     function garde()
     {
-        require("template/garde.html");
+        require("template/pages/garde.html");
     }

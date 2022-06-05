@@ -7,5 +7,5 @@
         $data = generate();
         // $data = getProjects();
 
-        require("template/project.php");
+        require("template/pages/project.php");
     }
