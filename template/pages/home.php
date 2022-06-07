@@ -1,5 +1,12 @@
-<?php $title = "accueil"; ?>
+<?php 
+    $title = "accueil"; 
+    $specificCSS = "";
+?>
 
-<?php $content = "page non disponible"; ?>
+<?php ob_start(); 
+
+include("template/pages/404.html");
+
+$content = ob_get_clean(); ?>
 
 <?php require('template/layout.php'); ?>

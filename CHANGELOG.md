@@ -1,3 +1,15 @@
+# 0.2.1 (2022-06-07)
+
+
+### Bug
+
+* image de profil probléme de positionnement
+
+### Features
+
+* ajout de la fonction "404"
+* ajout de la page `cv`
+
 # 0.2 (2022-06-05)
 
 

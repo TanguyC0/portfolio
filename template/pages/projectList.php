@@ -1,4 +1,7 @@
-<?php $title = "liste des projets"; ?>
+<?php 
+    $title = "liste des projets"; 
+    $specificCSS = '<link rel="stylesheet" href="./style/listeQuadr.css">';
+?>
 
 <?php ob_start(); ?>
 <section class="Quarter">

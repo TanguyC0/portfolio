@@ -1,4 +1,7 @@
-<?php $title = "projet : xxx"; ?>
+<?php 
+    $title = "projet : xxx"; 
+    $specificCSS = '<link rel="stylesheet" href="./style/duo.css">';
+?>
 
 <?php ob_start(); ?>
 <section class="duo">

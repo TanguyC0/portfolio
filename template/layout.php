@@ -7,8 +7,7 @@
         <title><?= $title?></title>
 
         <link rel="stylesheet" href="./style/main.css">
-        <link rel="stylesheet" href="./style/listeQuadr.css">
-        <link rel="stylesheet" href="./style/duo.css">
+        <?= $specificCSS ?>
     </head>
     <body>
         <nav>
