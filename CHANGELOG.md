@@ -1,3 +1,15 @@
+# 0.2.2 (2022-06-10)
+
+
+### Bug Fixes
+
+* le pied de page est affiché en bas de page meme si le corps de la page est vide
+* le positionnement de la photo de profil est correctement géré sur la page `cv`
+
+### Patch
+
+* la page `cv` a été completé
+
 # 0.2.1 (2022-06-07)
 
 

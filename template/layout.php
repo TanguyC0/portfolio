@@ -11,11 +11,11 @@
     </head>
     <body>
         <nav>
-            <ul>
-                <li><a href="index.php?link=home">Accueil</a></li>
-                <li><a href="./index.php?link=cv">CV</a></li>
-                <li><a href="./index.php?link=projectList">Projet</a></li>
-                <li><a href="./index.php?link=contact">Contact</a></li>
+            <ul class="menu">
+                <li class="menu"><a href="index.php?link=home">Accueil</a></li>
+                <li class="menu"><a href="./index.php?link=cv">CV</a></li>
+                <li class="menu"><a href="./index.php?link=projectList">Projet</a></li>
+                <li class="menu"><a href="./index.php?link=contact">Contact</a></li>
             </ul>
         </nav>
         
