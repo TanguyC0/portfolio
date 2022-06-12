@@ -1,6 +1,6 @@
 <?php
 
-    require_once("src/model/projectList.php");
+    require_once("src/model/project.php");
 
     function project()
     {

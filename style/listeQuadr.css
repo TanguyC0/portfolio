@@ -1,7 +1,5 @@
-section.Quarter
+section
 {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 

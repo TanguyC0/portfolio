@@ -3,8 +3,11 @@
     $specificCSS = '<link rel="stylesheet" href="./style/listeQuadr.css">';
 ?>
 
-<?php ob_start(); ?>
-<section class="Quarter">
+<?php 
+    ob_start(); 
+    include('./template/module/navigation.php');
+?>
+<section class="main">
     <?php
         foreach($data as $project)
         {
@@ -22,6 +25,9 @@
         
 </section>
 
-<?php $content = ob_get_clean(); ?>
+<?php 
+    include('./template/module/footer.php');
+    $content = ob_get_clean(); 
+?>
 
 <?php require('template/layout.php'); ?>

@@ -1,4 +1,4 @@
-section
+section.mono
 {
     display: flex;
     flex-direction: column;
@@ -10,7 +10,6 @@ section
     border: #fff solid 2px ;
     border-radius: 10px;
     box-shadow: #000000 10px 10px 15px -2px;
-    
 }
 
 article

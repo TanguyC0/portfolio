@@ -3,8 +3,11 @@
     $specificCSS = '<link rel="stylesheet" href="./style/duo.css">';
 ?>
 
-<?php ob_start(); ?>
-<section class="duo">
+<?php 
+    ob_start(); 
+    include('./template/module/navigation.php');
+?>
+<section class="main">
     <article id="gauche">
         <?php
             // foreach($data as $project)
@@ -43,6 +46,9 @@
         
 </section>
 
-<?php $content = ob_get_clean(); ?>
+<?php 
+    include('./template/module/footer.php');
+    $content = ob_get_clean(); 
+?>
 
 <?php require('template/layout.php'); ?>

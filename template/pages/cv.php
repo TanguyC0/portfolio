@@ -3,9 +3,12 @@
     $specificCSS = '<link rel="stylesheet" href="./style/mono.css">';
 ?>
 
-<?php ob_start(); ?>
+<?php 
+    ob_start(); 
+    include('./template/module/navigation.php');
+?>
 
-<section>
+<section class="mono">
     <article>
         <div>
             
@@ -120,6 +123,9 @@
 
 </section>
 
-<?php $content = ob_get_clean(); ?>
+<?php
+    include('./template/module/footer.php');
+    $content = ob_get_clean(); 
+?>
 
 <?php require('template/layout.php'); ?>

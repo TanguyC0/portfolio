@@ -1,28 +1,7 @@
-body
-{
-    background-color: #f0f0f0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    /* line-height: 20px; */
-    margin: 0;
-    padding: 0;
-}
-
 section
 {
-    display: flex;
-    flex-direction: row;
+    justify-content: flex-end;
     min-height: 100vh;
-
-    color: #f0f0f0;
-    /* text-shadow: #fff 0 0 30px; */
-}
-
-#gauche
-{
-    display: flex;
-    min-width: 40%;
-    max-width: 40%;
     background: rgb(38, 200, 239) url("../img/fond.jpg") no-repeat fixed;
 }
 

@@ -10,19 +10,6 @@
         <?= $specificCSS ?>
     </head>
     <body>
-        <nav>
-            <ul class="menu">
-                <li class="menu"><a href="index.php?link=home">Accueil</a></li>
-                <li class="menu"><a href="./index.php?link=cv">CV</a></li>
-                <li class="menu"><a href="./index.php?link=projectList">Projet</a></li>
-                <li class="menu"><a href="./index.php?link=contact">Contact</a></li>
-            </ul>
-        </nav>
-        
         <?= $content ?>
-
-        <footer>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus tempora quaerat architecto sint consequuntur maxime porro fugiat corrupti, doloribus ad provident, corporis quam veritatis mollitia odio consequatur sed voluptas. Amet?</p>
-        </footer>
     </body>
 </html>

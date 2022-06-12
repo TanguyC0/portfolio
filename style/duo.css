@@ -1,13 +1,3 @@
-section.duo
-{
-    display: flex;
-    flex-direction: row;
-    min-height: 100vh;
-
-    color: #f0f0f0;
-    /* text-shadow: #fff 0 0 30px; */
-}
-
 #gauche
 {
     display: flex;
