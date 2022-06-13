@@ -1,6 +1,8 @@
 <?php 
     $title = "contact"; 
     $specificCSS = '<link rel="stylesheet" href="./style/mono.css">';
+    $mail = "Corman.Tanguy.CT@gmail.com";
+    $phone = "+324********";
 ?>
 
 <?php 
@@ -11,28 +13,27 @@
 <section class="mono">
     <article>
         <div>
-            <h1>Contact</h1>
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat fuga perferendis deleniti neque eum voluptatem ducimus reprehenderit fugit eius earum! Ea quam eveniet aut, sunt aliquam repellendus sapiente enim accusantium.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, sit, natus quas, quidem perspiciatis nobis dolor excepturi aliquid recusandae fuga doloribus perferendis! Quas error eos sit excepturi sapiente voluptatem saepe.
-            lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus blanditiis delectus tenetur dolorem distinctio, amet ad sequi sapiente esse et reiciendis est fuga quam aperiam! Nostrum repellat laudantium obcaecati perferendis.
-            lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur recusandae dicta voluptates numquam quia enim soluta voluptas. Exercitationem officia sint, repudiandae enim eveniet assumenda repellendus explicabo quos est, doloribus voluptas.
-            lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.
-            lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.
-            lorem
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, libero. Nulla tempore iure distinctio, amet inventore laborum possimus perferendis vitae soluta asperiores adipisci corrupti. Consequatur ducimus quae voluptates deleniti maxime.
-
-            </p>
+            <h1>Par où me contacter?</h1>
+            <ul class="mono">
+                <li class="mono"><p>Mon mail : <a href="mailto:<?= $mail; ?>"><?= $mail; ?></a>.</p></li>
+                <li class="mono"><p>Mon numéro de téléphone : <a href="tel:<?= $phone; ?>"><?= $phone; ?></a>.</p></li>
+                <li class="mono"><p>Mon adresse : <a href="">226 Rue de la Croix Jurlet 4040 Herstal</a></p></li>
+            </ul>
         </div>
     </article>
 </section>
 <section class="mono">
     <article>
-        <form action="" method="post">
-            <input type="text"><input type="text"><input type="text"><input type="text">
-        </form>
+        <div>
+            <h1>m'envoyer un message</h1>
+            <mark>fonctionnaliter non disponible pour le moment</mark>
+            <form action="" method="post">
+                <label for="name">nom <mark>*</mark></label> <input type="text" name="name" id="name" required><br>
+                <label for="email">email <mark>*</mark></label> <input type="email" name="email" id="email" required><br>
+                <label for="sujet">sujet <mark>*</mark></label> <input type="text" name="sujet" id="sujet" required><br>
+                <label for="message">message <mark>*</mark></label> <textarea name="message" id="message" rows="10" required></textarea><br>
+            </form>
+        <div>
     </article>
 </section>
 

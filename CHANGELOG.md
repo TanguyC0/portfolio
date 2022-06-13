@@ -1,3 +1,14 @@
+# 0.2.3 (2022-06-13)
+
+
+### Bug
+
+* en dessous d'une certaine taille, le texte du footer empiéte sur le reste de la page.
+
+### Patch
+
+* La page Contacte à été édité
+
 # 0.2.2 (2022-06-10)
 
 

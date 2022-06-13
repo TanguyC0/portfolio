@@ -131,3 +131,30 @@ img.profil
     display: flex;
     max-width: 25%;
 }
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 49%;
+    width: 50%;
+    margin: auto;
+    
+    /* justify-content: flex-start; */
+}
+
+textarea 
+{
+    resize: none;
+}
+
+label
+{
+    display: flex;
+    font-size: 1em;
+    margin-top: auto;
+    align-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
