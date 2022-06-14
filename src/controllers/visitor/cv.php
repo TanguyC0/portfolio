@@ -1,11 +1,11 @@
 <?php
 
-    //require_once("src/model/cv.php");
+    //require_once("src/model/visitor/cv.php");
 
     function cv()
     {
         //$data = generate();
         // $data = getProjects();
 
-        require("template/pages/cv.php");
+        require("template/pages/visitor/cv.php");
     }

@@ -1,5 +1,5 @@
 <?php 
-    $title = "accueil"; 
+    $title = "admin"; 
     $specificCSS = "";
 ?>
 
@@ -7,7 +7,7 @@
     ob_start(); 
     include('./template/module/navigation.php');
 ?>
-<?php include("template/pages/404.html");?>
+<?php include("template/module/404.html");?>
 
 <?php
     include('./template/module/footer.php');

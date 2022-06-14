@@ -20,7 +20,7 @@
         <p>
             Pour accedé à mes réalisations, mes projets, mes informations personnelles, mes compétences et mes expériences, cliquez sur les liens ci-dessous.
         </p>
-        <a href="./index.php?link=projectList">
+        <a href="./index.php?link=home">
             acces au site ici
         </a>
     </article>

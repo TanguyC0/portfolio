@@ -2,11 +2,12 @@
 
     require_once("src/model/database/useful.php");
     require_once("src/controllers/garde.php");
-    require_once("src/controllers/projectList.php");
-    require_once("src/controllers/project.php");
-    require_once("src/controllers/contact.php");
-    require_once("src/controllers/cv.php");
-    require_once("src/controllers/home.php");
+    require_once("src/controllers/visitor/projectList.php");
+    require_once("src/controllers/visitor/project.php");
+    require_once("src/controllers/visitor/contact.php");
+    require_once("src/controllers/visitor/cv.php");
+    require_once("src/controllers/visitor/home.php");
+    require_once("src/controllers/admin/admin.php");
 
     if(isset($_GET['link']) && !empty($_GET['link']))
     {
@@ -29,6 +30,10 @@
         else if($_GET['link'] == 'contact')
         {
             contact();
+        }
+        else if($_GET['link'] == 'admin')
+        {
+            admin();
         }
         else
         {
