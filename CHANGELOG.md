@@ -1,3 +1,31 @@
+# 0.2.5 (2022-07-03)
+
+
+### Features
+
+* Ajout de la fonctionnalité de conection au site
+* apres connexion, le lien du menu "connexion" change en le nom de l'utilisateur
+* Le nom de l'utilisateur est un lien pour ce déconnecter
+
+### Patch
+
+* Fixe de l'ajout de compte l'hors de l'actualisation apres une premiere inscription
+* Deux compte ne pouront plus avoir le même mot de passe et nom d'utilisateur
+
+# 0.2.4 (2022-07-02)
+
+
+### Features
+
+* Ajout de la page `login`
+* Ajout du lien menu "connexion"
+* Ajout du logon
+* ajout de la sauvegarde d'un nouvelle utilisateur dans la base de données
+
+### Patch
+
+* modification de la base de donnée. Seul la table utilisateur existe maintenant.
+
 # 0.2.3 (2022-06-13)
 
 

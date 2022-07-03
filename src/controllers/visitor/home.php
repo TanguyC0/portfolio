@@ -7,5 +7,6 @@
         //$data = generate();
         // $data = getProjects();
 
+
         require("template/pages/visitor/home.php");
     }

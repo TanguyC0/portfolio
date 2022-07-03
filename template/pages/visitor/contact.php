@@ -2,7 +2,7 @@
     $title = "contact"; 
     $specificCSS = '<link rel="stylesheet" href="./style/mono.css">';
     $mail = "Corman.Tanguy.CT@gmail.com";
-    $phone = "+324********";
+    $phone = "+32496768659";
 ?>
 
 <?php 
@@ -28,8 +28,7 @@
             <h1>m'envoyer un message</h1>
             <mark>fonctionnaliter non disponible pour le moment</mark>
             <form action="" method="post">
-                <label for="name">nom <mark>*</mark></label> <input type="text" name="name" id="name" required><br>
-                <label for="email">email <mark>*</mark></label> <input type="email" name="email" id="email" required><br>
+                <label for="email">email <mark>*</mark></label> <input type="email" name="email" id="email" value="<?= $_SESSION["mail"]?>" required><br>
                 <label for="sujet">sujet <mark>*</mark></label> <input type="text" name="sujet" id="sujet" required><br>
                 <label for="message">message <mark>*</mark></label> <textarea name="message" id="message" rows="10" required></textarea><br>
             </form>

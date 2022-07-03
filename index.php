@@ -1,4 +1,14 @@
 <?php
+    session_start();
+
+    if(!isset($_SESSION['login']) && empty($_SESSION['login']))
+    {
+        $_SESSION['textLogin'] = "Connexion";
+        $_SESSION['mail'] = "";
+    }
+    else
+        $_SESSION['textLogin'] = "$_SESSION['login']";
+
 
     require_once("src/model/database/useful.php");
     require_once("src/controllers/garde.php");
@@ -7,7 +17,7 @@
     require_once("src/controllers/visitor/contact.php");
     require_once("src/controllers/visitor/cv.php");
     require_once("src/controllers/visitor/home.php");
-    require_once("src/controllers/admin/admin.php");
+    require_once("src/controllers/admin/login.php");
 
     if(isset($_GET['link']) && !empty($_GET['link']))
     {
@@ -31,13 +41,9 @@
         {
             contact();
         }
-        else if($_GET['link'] == 'admin')
+        else if($_GET['link'] == 'login')
         {
-            admin();
-        }
-        else
-        {
-            $page = '404';
+            login();
         }
     }
     else

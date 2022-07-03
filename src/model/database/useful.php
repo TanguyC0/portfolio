@@ -2,7 +2,7 @@
 
     function loginDB()
     {
-        require_once("src/model/database/secret.php");
+        require("src/model/database/secret.php");
         try
         {
             $conn = new PDO("mysql:host=$host;dbname=$db", $user, $userpswd);
