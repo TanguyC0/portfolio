@@ -13,7 +13,7 @@
         {
     ?>
         <article class="Quarter">
-            <a href="./index.php?link=project" class="Quarter">
+            <a href="./index.php?link=project&id=5" class="Quarter">
                 <h1 class="Quarter"> <?= $project["title"]; ?></h1>
                 <img src="img/<?= $project["picture"]; ?>" alt="" class="Quarter">
                 <p class="Quarter"> <?= $project["abstract"]; ?> </p>

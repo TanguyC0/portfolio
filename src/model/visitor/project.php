@@ -1,16 +1,17 @@
 <?php
 
-    function generate()
+    function getProject()
     {
-        $tmp = [];
-        for($i = 0;$i < 10;$i++)
-        {
-            $buffer =   [
-                        'title' => 'projet '.$i,
-                        'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde est quisquam, dolor fugiat ex labore id sunt, suscipit quia magnam ut enim amet iure quam nobis. Nulla reprehenderit esse quaerat!'
-                        ];
-            array_push($tmp,$buffer);
-        }
+        $id = $_GET['id'];
 
-        return $tmp;
+        $bdd = loginDB();
+        $sqlQuery = $bdd->prepare("SELECT title,description,lien FROM projects WHERE id = :id");
+
+        $sqlQuery->bindValue(':id', $id, PDO::PARAM_STR);
+
+        $sqlQuery->execute() or die(print_r($sqlQuery->errorInfo()));
+
+        $result = $sqlQuery->fetch();
+        $sqlQuery->closeCursor();
+        return $result;
     }

@@ -4,8 +4,7 @@
 
     function project()
     {
-        $data = generate();
-        // $data = getProjects();
+        $data = getProject();
 
         require("template/pages/visitor/project.php");
     }

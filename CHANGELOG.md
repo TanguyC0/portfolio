@@ -6,6 +6,10 @@
 * Ajout de la page `admin`
 * Ajout de la possibiliter d'écrire un article sur un projet
 
+### Patch
+
+* Le contenu des des articles de chaque projet est désormais récupérer de la base de donnée (pas encore les images)
+
 # 0.2.5 (2022-07-03)
 
 
