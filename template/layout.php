@@ -8,6 +8,10 @@
 
         <link rel="stylesheet" href="./style/main.css">
         <?= $specificCSS ?>
+        <?php 
+            if(isset($specificJS))
+                echo $specificJS 
+        ?>
     </head>
     <body>
         <?= $content ?>

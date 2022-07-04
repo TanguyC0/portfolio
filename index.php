@@ -7,7 +7,7 @@
         $_SESSION['mail'] = "";
     }
     else
-        $_SESSION['textLogin'] = "$_SESSION['login']";
+        $_SESSION['textLogin'] = $_SESSION['login'];
 
 
     require_once("src/model/database/useful.php");
@@ -18,6 +18,7 @@
     require_once("src/controllers/visitor/cv.php");
     require_once("src/controllers/visitor/home.php");
     require_once("src/controllers/admin/login.php");
+    require_once("src/controllers/admin/admin.php");
 
     if(isset($_GET['link']) && !empty($_GET['link']))
     {
@@ -44,6 +45,10 @@
         else if($_GET['link'] == 'login')
         {
             login();
+        }
+        else if($_GET['link'] == 'admin')
+        {
+            admin();
         }
     }
     else

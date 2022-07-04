@@ -1,3 +1,11 @@
+# 0.2.6 (2022-07-04)
+
+
+### Features
+
+* Ajout de la page `admin`
+* Ajout de la possibiliter d'écrire un article sur un projet
+
 # 0.2.5 (2022-07-03)
 
 
